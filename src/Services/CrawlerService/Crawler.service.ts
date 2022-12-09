@@ -16,6 +16,7 @@ export class CrawlerService {
    
     const browser = await puppeteer.launch({
       headless: true,
+      args: ['--no-sandbox']
     });
 
     const embeds: Embed[] = [];
