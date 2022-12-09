@@ -12,9 +12,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/node-cron": "^3.0.6",
     "@types/node-fetch": "^2.6.2",
     "dotenv": "^16.0.3",
     "events": "^3.3.0",
+    "node-cron": "^3.0.2",
     "node-fetch": "^2.6.7",
     "puppeteer": "^19.4.0",
     "puppeteer-tsd": "0.0.2",
